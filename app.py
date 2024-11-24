@@ -9,7 +9,7 @@ def get_weather():
         messagebox.showwarning("Input Error", "Please enter a city name.")
         return
 
-    api_key = "480fec37ff1e470f9c0abf0563c51f99"  # Replace with your API key
+    api_key = "replace with you APIkey"  # Replace with your API key
     base_url = "https://api.openweathermap.org/data/2.5/weather"
     params = {
         'q': city,
